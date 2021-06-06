@@ -37,5 +37,5 @@ jobs:
       uses: dorny/test-reporter@v1.4.3
       with:
          name: Run Tests
-         path: "*/surefire-reports/TEST-.xml"
+         path: "*/surefire-reports/TEST-.html"
          reporter: java-junit
